@@ -572,6 +572,10 @@ public class RMNCHBeneficiaryDetailsRmnch {
 	@Transient
 	private String familyId;
 
+	@Expose
+	@Transient
+	private String occupation;
+
 	// Anthropometry fields sent by Stop TB mobile app via beneficiaryDetails payload.
 	// i_beneficiarydetails_rmnch has no these columns — stored in i_beneficiarydetails.otherFields instead.
 	@Expose

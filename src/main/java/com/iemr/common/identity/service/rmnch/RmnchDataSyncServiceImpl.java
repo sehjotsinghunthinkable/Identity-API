@@ -278,6 +278,7 @@ public class RmnchDataSyncServiceImpl implements RmnchDataSyncService {
 										rmnchmBeneficiarydetail.setPlaceOfCurrentLiving(obj.getPlaceOfCurrentLiving());
 										rmnchmBeneficiarydetail.setOtherPlaceOfCurrentLiving(obj.getOtherPlaceOfCurrentLiving());
 										rmnchmBeneficiarydetail.setInstitutionName(obj.getInstitutionName());
+										rmnchmBeneficiarydetail.setOccupation(obj.getOccupation());
 										if(obj.getFamilyId()!=null && !obj.getFamilyId().isEmpty()){
 											rmnchmBeneficiarydetail.setFamilyId(obj.getFamilyId());
 
